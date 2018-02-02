@@ -1,0 +1,308 @@
+/*    SOCIAL MEDIA     */
+
+.sm {
+	display: block;
+	float: left; 
+	height: 34px;
+	width: 34px;
+	margin-top: 12px;
+	margin-right: 8px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 60%; 
+	opacity: 1; 
+	line-height: 36px;
+	text-align: center;
+	font-size: 22px;
+	background-color: @mainColorDark;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+
+a .sm {
+	color: @footerColor;
+}
+
+a .sm:hover {
+	color: #fff;
+}
+
+.sm-light {
+	background-color: #fff;
+	color: @mainColorDark;
+}
+
+
+a .sm-light {
+	color:  @mainColorDark;
+}
+
+a .sm-light:hover {
+	color:  @mainColorDark;
+}
+
+.sm:hover {
+	cursor: pointer; 
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+.socialbar-header { 
+    display: inline-block;
+    width: 380px;
+    height: 30px;
+    vertical-align: middle;
+    position: absolute;
+    -moz-transition: none 1s;
+    -o-transition: none 1s;
+    -webkit-transition: none 1s;
+    transition: none 1s; 
+    top: 100px;
+    right: 30px;
+    font-size: 18px;
+    text-align: right; 
+}
+
+.socialbar-header-fixed {
+    top: 30px;
+}
+ 
+
+ 
+@media only screen and (max-width: 768px) {
+ 
+    .socialbar-header { 
+        top:50px;
+        display: none;
+    }
+    
+}
+
+.socialbar-header span, .socialbar-header-mobilenav span {
+    margin-left: 12px;
+}
+ 
+ 
+#socialbar { 
+    width: 100%;
+    //max-width: 460px;
+}
+
+.socialbar-fixed {
+    position: fixed;
+    top: 120px;
+} 
+
+#share {
+    background-color: #fff; 
+    width: 100%;
+}
+
+#share .jssocials-share {
+    width: 46px;
+    height: 42px;
+    background-color: grey;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin: 1px;
+}
+
+
+
+// Facebook //
+.jssocials-share-facebook a.jssocials-share-link {
+    background-color: #3b5998; 
+    width: 46px;
+    height: 42px;
+    position: relative;
+    display: inline-block;
+    content: '';
+    font-size: 0px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.jssocials-share-facebook a.jssocials-share-link:hover {
+    background-color: #fff;
+    border: 1px solid #3b5998;
+    color: #3b5998;
+}
+
+.jssocials-share-facebook a.jssocials-share-link:before {
+    content: "\f09a";
+    font-size: 20px;
+    line-height: 42px;
+    font-family: FontAwesome;
+}
+ 
+
+// Twitter //
+.jssocials-share-twitter a.jssocials-share-link {
+    background-color: #00aced; 
+    width: 46px;
+    height: 42px;
+    position: relative;
+    display: inline-block;
+    content: '';
+    font-size: 0px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.jssocials-share-twitter a.jssocials-share-link:hover {
+    background-color: #fff;
+    border: 1px solid #00aced;
+    color: #00aced;
+}
+
+.jssocials-share-twitter a.jssocials-share-link:before {
+    content: "\f099";
+    font-size: 20px;
+    line-height: 42px;
+    font-family: FontAwesome;
+}
+ 
+// Goolgeplus //
+.jssocials-share-googleplus a.jssocials-share-link {
+    background-color: #dd4b39; 
+    width: 46px;
+    height: 42px;
+    position: relative;
+    display: inline-block;
+    content: '';
+    font-size: 0px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.jssocials-share-googleplus a.jssocials-share-link:hover {
+    background-color: #fff;
+    border: 1px solid #dd4b39;
+    color: #dd4b39;
+}
+
+.jssocials-share-googleplus a.jssocials-share-link:before {
+    content: "\f0d5";
+    font-size: 20px;
+    line-height: 42px;
+    font-family: FontAwesome;
+}
+
+// pinterest  //
+.jssocials-share-pinterest a.jssocials-share-link {
+    background-color: #cb2027; 
+    width: 46px;
+    height: 42px;
+    position: relative;
+    display: inline-block;
+    content: '';
+    font-size: 0px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.jssocials-share-pinterest a.jssocials-share-link:hover {
+    background-color: #fff;
+    border: 1px solid #cb2027;
+    color: #cb2027;
+}
+
+.jssocials-share-pinterest a.jssocials-share-link:before {
+    content: "\f0d2";
+    font-size: 20px;
+    line-height: 42px;
+    font-family: FontAwesome;
+}
+
+// linkedin  //
+.jssocials-share-linkedin a.jssocials-share-link {
+    background-color: #007bb6; 
+    width: 46px;
+    height: 42px;
+    position: relative;
+    display: inline-block;
+    content: '';
+    font-size: 0px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.jssocials-share-linkedin a.jssocials-share-link:hover {
+    background-color: #fff;
+    border: 1px solid #007bb6;
+    color: #007bb6;
+}
+
+.jssocials-share-linkedin a.jssocials-share-link:before {
+    content: "\f0e1";
+    font-size: 20px;
+    line-height: 42px;
+    font-family: FontAwesome;
+}
+
+
+// comment //
+.jssocials-share-comment a.jssocials-share-link {
+    background-color: #fff; 
+    width: 46px;
+    height: 42px;
+    position: relative;
+    display: inline-block;
+    content: '';
+    font-size: 0px;
+    color: #222;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.jssocials-share-comment a.jssocials-share-link:hover {
+    background-color: #FFF;
+    border: 1px solid #e9e9e9;
+    color: #999;
+}
+
+.jssocials-share-comment a.jssocials-share-link:before {
+    content: "\f0e5";
+    font-size: 20px;
+    line-height: 42px;
+    font-family: FontAwesome;
+}
+ 
+ 

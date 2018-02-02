@@ -1,0 +1,214 @@
+ .nav { 
+	background-color: transparent;
+	margin: 0 auto;
+	position: relative;
+	top: 35px;
+}
+
+.menu-main-container ul {
+	list-style-type: none;
+	padding: 15px 15px 0px 0px;
+}
+
+.menu-main-container ul li { 
+	display: inline-block;
+	color: @nav;
+	text-decoration: none;
+	padding-left: 0px;
+	padding-right: 15px;
+}
+
+.menu-main-container ul li a {  
+	color: @nav;
+}
+
+.menu-main-container ul li a:hover, .menu-main-container ul li a:active {  
+	color: @navHover;
+}
+
+.navbar-brand {
+    float: left;
+    height: 122px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-default {
+	background-color: #fff !important;
+}
+
+.navbar-center { 
+	margin: 0 auto;
+	text-align: center;
+	float: none; width: 85%; 
+	margin-left: 15%;
+
+}
+
+
+
+.menu {
+	display: inline-block;
+	list-style-type: none;
+	font-family: myFirstFont;
+	height: 52px;
+	
+}
+
+ul.menu  {
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	margin-top: 50px;
+}
+
+ul.menu li {
+	display: block;
+	list-style-type: none; 
+	float: left;
+	//width: 170px;
+	height: 50px;  
+	line-height: 45px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #1a535c; 
+}
+ 
+ul.menu li a {
+	display: block;
+	color: #1a535c;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 50px; 
+	font-size: 18px;
+	line-height: 50px; 
+	list-style-type: none; 
+	float: left;    
+}
+
+ul.menu li:hover, ul.menu li.current-menu-item  {
+	background-color: @bg-light;
+}
+
+ul.sub_menu {
+	background-color: @mainColorSecond;
+	height: 50px; 
+	top: 30px;  
+	display: inline-block;
+	position: relative; 
+	margin: 0 auto;
+	float: none;  
+	left: -2%;
+	width: 104%; 
+	margin: 0 auto;
+}
+
+  
+ 
+ul.sub_menu li  {
+	display: inline-block;
+	list-style-type: none; 
+	float: left;   
+	padding: 0px;
+	background-color: @mainColorSecond; 
+}
+
+ul.sub_menu li a {
+	display: block;
+	color: #FFF;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 50px; 
+	font-size: 16px;
+	line-height: 50px; 
+	list-style-type: none; 
+	float: left;    
+}
+
+
+ul.sub_menu li:hover, ul.sub_menu li.current-menu-item a {
+
+	background-color: lighten(@mainColorSecondLight, 12%);
+}
+
+
+@media screen and (max-width:798px){
+
+	#hamburger {
+		display: block;
+		width: 50px;
+		height: 50px; 
+		z-index: 2000;
+		float: right; 
+		margin-top: 50px;
+		line-height: 50px;
+		font-size: 25px;
+		text-align: center;
+		color: #1a535c;
+	}
+
+	.hamburger_menu {
+		background-color: #fff;
+		display: none; 
+		width: 0%;
+		height: auto; 
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		opacity: 0;
+	}
+
+	.hamburger_menu.opend { 
+		background-color: #fff;
+		background-color: @mainColorSecond; 
+		display: block; 
+		width: 100%;
+		height: auto; 
+		position: absolute; 
+		top: 120px;
+		left: 0px;
+		opacity: 1;
+	}
+
+	#hamburger:hover {
+		cursor: pointer;
+	}
+
+	ul {
+	    padding-left: 0px;
+	}
+
+	ul.hamburger_menu { 
+		display: inline-block; 
+		margin: 0 auto;   
+		padding:12px;
+	}
+
+	ul.hamburger_menu li  {
+		display: inline-block;
+		list-style-type: none; 
+		float: left;  
+		width: 100%;
+		background-color: @mainColorSecond; 
+	}
+
+	ul.hamburger_menu li:hover, ul.hamburger_menu li a:hover, ul.hamburger_menu li.current-menu-item { 
+		background-color: lighten(@mainColorSecondLight, 12%);
+		cursor: pointer;
+	}
+
+	ul.hamburger_menu li a {
+		display: block;
+		color: #FFF;
+		padding-left: 15px;
+		padding-right: 15px;
+		height: 50px;
+		font-size: 16px;
+		line-height: 50px;
+		list-style-type: none; 
+		float: left;    
+	}
+ 
+
+}

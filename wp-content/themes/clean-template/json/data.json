@@ -1,0 +1,202 @@
+{
+"id": 2311233,
+"name": "Portal Gemeente Enschede",
+"mediaCount": 11,
+"created": "2016-04-22T12:18:36+00:00",
+"updated": "2016-06-21T11:33:24+00:00",
+"hashedId": "hexk4mesp5",
+"anonymousCanUpload": false,
+"anonymousCanDownload": false,
+"public": true,
+"publicId": "hexk4mesp5",
+"description": "<p>Dit wistia project mag alleen video's bevatten die geupload zijn via de video portal, van de gemeente enschede</p>\n",
+"medias": [
+{
+"id": 20907256,
+"name": "GENS_Dalian_V7 CHIN",
+"type": "Video",
+"created": "2016-06-21T11:19:58+00:00",
+"updated": "2016-06-21T11:26:19+00:00",
+"duration": 243.82,
+"hashed_id": "8c5cdx5rp4",
+"description": "",
+"progress": 1,
+"status": "ready",
+"thumbnail": {
+"url": "https://embed-ssl.wistia.com/deliveries/5d7d73fc0250cd274c02ab4e7b720e3c3b96e56d.jpg?image_crop_resized=200x120",
+"width": 200,
+"height": 120
+}
+},
+{
+"id": 20907281,
+"name": "GENS_Dalian_V7 ENG",
+"type": "Video",
+"created": "2016-06-21T11:24:33+00:00",
+"updated": "2016-06-21T11:33:24+00:00",
+"duration": 222.666,
+"hashed_id": "502zihubws",
+"description": "",
+"progress": 1,
+"status": "ready",
+"thumbnail": {
+"url": "https://embed-ssl.wistia.com/deliveries/813e10519906ab3c80843bdd1418c0e74fd4c2bc.jpg?image_crop_resized=200x120",
+"width": 200,
+"height": 120
+}
+},
+{
+"id": 20906307,
+"name": "GENS15xx - Innovatiepad inloopddag_FINAL",
+"type": "Video",
+"created": "2016-06-21T09:17:52+00:00",
+"updated": "2016-06-21T09:23:40+00:00",
+"duration": 185.192,
+"hashed_id": "3pvu2er572",
+"description": "",
+"progress": 1,
+"status": "ready",
+"thumbnail": {
+"url": "https://embed-ssl.wistia.com/deliveries/2527277741623574d2b400b4562436efd3ff9967.jpg?image_crop_resized=200x120",
+"width": 200,
+"height": 120
+}
+},
+{
+"id": 20906326,
+"name": "GENS15xx - Innovatiepad_FINAL",
+"type": "Video",
+"created": "2016-06-21T09:22:30+00:00",
+"updated": "2016-06-21T09:30:39+00:00",
+"duration": 265.368,
+"hashed_id": "lsa53wki65",
+"description": "",
+"progress": 1,
+"status": "ready",
+"thumbnail": {
+"url": "https://embed-ssl.wistia.com/deliveries/3db0ef9f0b312c5507a18ea14b4c58d89b3aec90.jpg?image_crop_resized=200x120",
+"width": 200,
+"height": 120
+}
+},
+{
+"id": 20906345,
+"name": "GENS15xx - Innovatiepad_Sfeerverslag_FINAL",
+"type": "Video",
+"created": "2016-06-21T09:25:02+00:00",
+"updated": "2016-06-21T09:31:05+00:00",
+"duration": 203.533,
+"hashed_id": "r9z5p6up7n",
+"description": "",
+"progress": 1,
+"status": "ready",
+"thumbnail": {
+"url": "https://embed-ssl.wistia.com/deliveries/1deaef87c937ef6593502b16454b6b5c681e2ce6.jpg?image_crop_resized=200x120",
+"width": 200,
+"height": 120
+}
+},
+{
+"id": 20906381,
+"name": "GENS1401 - ONS Talentontwikkeling",
+"type": "Video",
+"created": "2016-06-21T09:29:06+00:00",
+"updated": "2016-06-21T09:35:44+00:00",
+"duration": 138.122,
+"hashed_id": "xs7n068r14",
+"description": "",
+"progress": 1,
+"status": "ready",
+"thumbnail": {
+"url": "https://embed-ssl.wistia.com/deliveries/c35d849ef32499154d04474eef2bd1544cd58713.jpg?image_crop_resized=200x120",
+"width": 200,
+"height": 120
+}
+},
+{
+"id": 20906393,
+"name": "GENS1506 - DSA_FINAL",
+"type": "Video",
+"created": "2016-06-21T09:30:16+00:00",
+"updated": "2016-06-21T09:32:34+00:00",
+"duration": 104.059,
+"hashed_id": "o650u6d0jc",
+"description": "",
+"progress": 1,
+"status": "ready",
+"thumbnail": {
+"url": "https://embed-ssl.wistia.com/deliveries/a7b815590dbb7a76924217b6010213e9e59a4398.jpg?image_crop_resized=200x120",
+"width": 200,
+"height": 120
+}
+},
+{
+"id": 20906436,
+"name": "GENS_Dalian__NL_Ondertiteling_Dutch V02",
+"type": "Video",
+"created": "2016-06-21T09:34:27+00:00",
+"updated": "2016-06-21T09:41:28+00:00",
+"duration": 222.666,
+"hashed_id": "y70endvwwo",
+"description": "",
+"progress": 1,
+"status": "ready",
+"thumbnail": {
+"url": "https://embed-ssl.wistia.com/deliveries/6338530602fbf66be100b99444de2c89dcedcd57.jpg?image_crop_resized=200x120",
+"width": 200,
+"height": 120
+}
+},
+{
+"id": 20906445,
+"name": "Gemeente Enschede - Planon 1",
+"type": "Video",
+"created": "2016-06-21T09:35:25+00:00",
+"updated": "2016-06-21T09:37:40+00:00",
+"duration": 291.059,
+"hashed_id": "2apeku2z4a",
+"description": "",
+"progress": 1,
+"status": "ready",
+"thumbnail": {
+"url": "https://embed-ssl.wistia.com/deliveries/5e1ac4f766fe389eabde9445892bac99f5a8e756.jpg?image_crop_resized=200x120",
+"width": 200,
+"height": 120
+}
+},
+{
+"id": 20906463,
+"name": "Gemeente Enschede - YouForce Kort",
+"type": "Video",
+"created": "2016-06-21T09:36:40+00:00",
+"updated": "2016-06-21T09:38:58+00:00",
+"duration": 317.891,
+"hashed_id": "ixkp10rqtn",
+"description": "",
+"progress": 1,
+"status": "ready",
+"thumbnail": {
+"url": "https://embed-ssl.wistia.com/deliveries/411c7f10152399b67ae40b8b3738b5e1ae65e9c9.jpg?image_crop_resized=200x120",
+"width": 200,
+"height": 120
+}
+},
+{
+"id": 19734943,
+"name": "Get Connected zonder acteurs",
+"type": "Video",
+"created": "2016-04-22T12:35:11+00:00",
+"updated": "2016-04-22T12:38:58+00:00",
+"duration": 179.524,
+"hashed_id": "8hsotf0eq6",
+"description": "",
+"progress": 1,
+"status": "ready",
+"thumbnail": {
+"url": "https://embed-ssl.wistia.com/deliveries/b61988f605a179ab1dca2f04521454f2724c3259.jpg?image_crop_resized=200x120",
+"width": 200,
+"height": 120
+}
+}
+]
+}

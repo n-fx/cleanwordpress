@@ -1,0 +1,87 @@
+.bd-footer { 
+	padding-bottom: 0px; 
+	font-size: 85%; 
+	background-color: @footerColor; 
+	width: 100%;
+	display: block;   
+	position: relative;
+} 
+
+ 
+// MENU
+.bd-footer p { 
+    font-size: 14px;
+    line-height: 12px;
+}
+
+p.credits {
+	font-size: 10px;
+}
+
+.footer-menu ul {
+	list-style-type: none;
+	padding: 0px; 
+	display: block;
+	width: 100%;
+	font-family: @mainFont;
+}
+
+.footer-menu ul.menu {  
+	margin-top: 20px;
+	margin-left: -15px;
+}
+
+.footer-menu ul.menu li { 
+	height:  25px; 
+	padding-left: 0px; 
+	font-size: 12px;
+}
+
+
+.footer-menu ul li:nth-child(odd)  {
+	display: inline-block;
+	color: #333; 
+	width:100%;
+	max-width: 190px; 
+	margin: 0 0 0px;
+}
+
+.footer-menu ul li:nth-child(even)  {
+	display: inline-block;
+	color: #333; 
+	width:100%;
+	max-width: 190px; 
+	margin: 0 0 0px;
+}
+
+
+.footer-menu ul li:nth-child(even) a, .footer-menu ul li:nth-child(odd) a{
+	font-size: 14px;
+    line-height: 12px;
+}
+
+.footer-menu ul li a {
+	display: block;
+	color: #333;  
+}
+
+.footer-menu ul li a:hover {
+	display: block;
+	color: @mainColorSecond; 
+}
+
+@media only screen and (max-width: 768px) {
+
+	.footer-menu ul {
+		height: auto; 
+	}
+
+	.footer-menu ul li, .footer-menu ul li:nth-child(odd), .footer-menu ul li:nth-child(even)  {
+		display: inline-block;
+		color: #333; 
+		width: 100%;
+		font-size: 12px;
+		margin: 0 0 0px;
+	}
+
+}

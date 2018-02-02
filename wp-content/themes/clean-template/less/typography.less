@@ -1,0 +1,104 @@
+.text-white {
+	color:#fff;
+}
+
+.text-red {
+	color: @mainColorSecond;
+}
+
+p, ul, li, ol {
+	font-size: @main-font-size; 
+	word-wrap: break-word;
+}
+
+ul {
+	padding-left: 22px; 
+}
+
+a, a:hover {
+	text-decoration: none !important;
+	color: @mainColorSecond;
+}
+
+a {
+	color: @link;
+}
+
+a:hover {
+	text-decoration: none !important;
+	color: @linkHover;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../assets/fonts/ufonts.com_themix-plain.ttf);
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: @brand-primary;
+	word-wrap: break-word;
+	font-family: myFirstFont;
+}
+ 
+h1, h2, h3 {
+	//letter-spacing: 1.6px; 
+	//font-family: 'Oswald', sans-serif !important;
+}
+
+hr {
+	border-top: 1px solid #d7d7d7 !important;
+}
+
+.text-white a {
+	color:#333;
+}
+
+.text-red a {
+	color: @brand-primary;
+}
+
+.text-red a:hover {
+	color: lighten(@brand-primary, 6%); 
+}
+
+
+.text-shadow {
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+
+img.alignright { 
+	float:right; margin:0 0 1em 1em}
+img.alignleft { 
+	float:left; margin:0 1em 1em 0}
+img.aligncenter { 
+	display: block; margin-left: auto; margin-right: auto}
+a img.alignright { 
+	float:right; margin:0 0 1em 1em}
+a img.alignleft { 
+	float:left; margin:0 1em 1em 0}
+a img.aligncenter { 
+	display: block; margin-left: auto; margin-right: auto}
+
+img.size-full {
+	width: 100%;
+	height: auto;
+}
+
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+ a:hover .news_href {
+	color: @linkHover !important; 
+}
+
+a .panel_item {
+	color: #333;
+}

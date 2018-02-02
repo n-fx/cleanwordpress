@@ -1,0 +1,81 @@
+
+.header {
+  background:#FFF; 
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  border-bottom: 2px solid @brand-success;
+}
+
+ 
+.header_small {
+	display: block;
+	width: 100%;
+	padding:0px;
+	margin: 0 auto; 
+	height: 270px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-image: url(../assets/images/placeholder.jpg);
+}
+
+.header_large {
+	display: block;
+	width: 100%;
+	padding:0px;
+	margin: 0 auto; 
+	height: 370px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(../assets/images/placeholder.jpg);
+}
+
+.logo {
+	display: inline-block; 
+	//width: 268px; 
+	max-width: 199px;
+	height: 31px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(../assets/images/humit_logo.png);
+	margin-top: 40px;
+	margin-left: 20px;
+}
+ 
+
+.bg-logo_1 {
+	display: block; 
+	width: 100%;
+	max-width: 200px;
+	background-image: url(../assets/images/anbi.jpg);
+	background-size: auto;
+	background-repeat: no-repeat; 
+	height: 99px;
+	max-height: 99px;
+}
+
+.bg-logo_1:hover {
+	opacity: 0.9;
+}
+ 
+@media screen and (max-width:998px){
+	.header_large {
+		display: block;
+		width: 100%;
+		padding:0px;
+		margin: 0 auto; 
+		height: 260px;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-image: url(../assets/images/placeholder.jpg);
+	}
+
+}
